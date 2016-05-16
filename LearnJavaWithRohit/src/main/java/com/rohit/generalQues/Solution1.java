@@ -4,6 +4,7 @@ package com.rohit.generalQues;
  * @auth: Roht
  * @date: 19/04/16
  * @quest: What will be output of this program.
+ * @ans: This will give an exception of StackOverflowError
  */
 public class Solution1 {
 	private Solution1 s = new Solution1();

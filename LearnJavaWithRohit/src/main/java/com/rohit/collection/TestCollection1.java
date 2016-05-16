@@ -23,8 +23,8 @@ public class TestCollection1 {
 		/*
 		 * Option 1:
 		 */
-//		HashSet<Integer>  SetlistToSet = new HashSet<Integer> (li);
-//		System.err.println(SetlistToSet);
+		HashSet<Integer>  SetlistToSet = new HashSet<Integer> (li);
+		System.err.println(SetlistToSet);
 	}
 
 }

@@ -3,7 +3,7 @@ package com.rohit.generalQues;
 /*
  * @auth: Roht
  * @date: 19/04/16
- * @quest: Is all the methods below is an example of 
+ * @quest: Is all the methods below is an example of overloading
  */
 public class Solution4 {
 	public void addElement(Object obj){
