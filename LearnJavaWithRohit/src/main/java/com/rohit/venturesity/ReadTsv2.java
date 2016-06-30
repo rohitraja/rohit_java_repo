@@ -33,7 +33,7 @@ public class ReadTsv2 {
 	
 	public static void main(String[] args) {
 		try {
-			BufferedReader TsvFile = new BufferedReader(new FileReader("C://Users//Bahubali//Downloads//classification_train.tsv//classification_train.tsv"));
+			BufferedReader TsvFile = new BufferedReader(new FileReader("classification_train.tsv"));
 			
 			String datarow = TsvFile.readLine();
 			while(datarow!=null){
