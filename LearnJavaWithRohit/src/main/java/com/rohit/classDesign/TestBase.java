@@ -13,4 +13,5 @@ public class TestBase implements Base {
 	public static void main(String arg[]){
 		System.err.println(new TestBase().checkFlag()); // *3
 	}
+	
 }

@@ -14,5 +14,6 @@ public class EmployeeComp {
 		this.salary = salary;
 	}
 	
+	
 
 }

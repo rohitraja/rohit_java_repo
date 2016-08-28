@@ -12,7 +12,6 @@ public class Recurtion5 {
 	}
 	
 	public static void main(String arg[]){
-		
 		method(5);
 	}
 

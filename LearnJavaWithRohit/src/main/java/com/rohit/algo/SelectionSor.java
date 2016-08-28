@@ -54,6 +54,7 @@ public class SelectionSor {
 			
 			ar =selectionSortByRec(ar, startIndex+1, endIndex);
 		}
+		
 		return ar;
 	}
 

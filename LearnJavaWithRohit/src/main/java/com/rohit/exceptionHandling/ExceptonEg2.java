@@ -17,6 +17,7 @@ class B extends A{
 		super.process();
 		if(true) throw new RuntimeException();
 		System.out.println("B");
+		
 	}
 }
 public class ExceptonEg2 {

@@ -19,6 +19,7 @@ public class DiagonalDifference {
             sum1+=a[i][i];
             i++;
         }
+        
         System.out.println("Sum1 "+sum1);
         i--;
         int j=0;

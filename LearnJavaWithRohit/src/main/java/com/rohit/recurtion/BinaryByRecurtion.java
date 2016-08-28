@@ -14,7 +14,6 @@ public class BinaryByRecurtion {
 	
 	public static void main(String ar[]){
 		
-		
 		binaryDigit(64);
 		
 	}

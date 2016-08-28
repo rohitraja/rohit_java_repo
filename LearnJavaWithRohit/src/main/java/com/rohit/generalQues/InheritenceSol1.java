@@ -17,5 +17,6 @@ public class InheritenceSol1{
 	public static void main(String arg[]){
 		Derived derived  =  new Derived();
 		derived.foo();
+		
 	}
 }

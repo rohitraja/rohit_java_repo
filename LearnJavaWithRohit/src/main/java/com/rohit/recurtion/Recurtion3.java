@@ -16,5 +16,4 @@ public class Recurtion3 {
 	public static void main(String arg[]){
 		method(3);
 	}
-
 }

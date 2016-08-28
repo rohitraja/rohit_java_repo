@@ -15,6 +15,7 @@ public class TrappingRainWater {
 	 * 
 	 * complexcity: O(n^2)
 	 */
+	
 	Integer maxLWater(Integer []integ){
 		Integer water=0,towerLeft=integ.length,start=0,last1=integ.length-1;
 		

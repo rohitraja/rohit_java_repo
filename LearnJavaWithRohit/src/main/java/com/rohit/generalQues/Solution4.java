@@ -15,7 +15,6 @@ public class Solution4 {
 	}
 	public void addElement(int index, Object obj){
 		System.err.println("addElement(int index, Object obj)");
-		
 	}
 	
 	public static void main(String arg[]){

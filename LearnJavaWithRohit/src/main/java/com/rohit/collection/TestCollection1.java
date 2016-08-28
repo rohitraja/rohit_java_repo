@@ -20,6 +20,7 @@ public class TestCollection1 {
 		li.add(3);
 		System.out.println(li);
 		
+		
 		/*
 		 * Option 1:
 		 */

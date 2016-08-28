@@ -17,6 +17,7 @@ public class ProductDetails {
 	}
 	public void setCatagoryId(String catagoryId) {
 		this.catagoryId = catagoryId;
+		
 	}
 	public String getProductTitle() {
 		return productTitle;

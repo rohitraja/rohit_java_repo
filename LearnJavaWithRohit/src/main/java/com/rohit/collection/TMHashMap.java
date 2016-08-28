@@ -11,6 +11,7 @@ public class TMHashMap {
 	// for simplicity size is taken as 2^4
 	private static final int SIZE = 16;
 	private Entry table[] = new Entry[SIZE];
+	
 
 	/**
 	 * User defined map data structure with key and value.

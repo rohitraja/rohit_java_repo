@@ -16,5 +16,4 @@ public class Solution1 {
 		new Solution1();
 		System.out.println("Created");
 	}
-
 }

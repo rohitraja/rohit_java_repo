@@ -55,8 +55,6 @@ public class MaxDiffrence {
 	        }
 	        
 	        System.out.println(maxDifference(a));
-	        
-
 	    }
 	}
 

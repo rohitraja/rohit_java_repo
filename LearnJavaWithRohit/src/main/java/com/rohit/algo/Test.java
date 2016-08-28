@@ -18,6 +18,7 @@ public class Test {
 			 }
 		 }
 		 return stringMatrix;
+		 
 	}
 	
 	public static String encryptTxt(char[][] stringMatrix,String cypher,Integer rows,Integer columns){

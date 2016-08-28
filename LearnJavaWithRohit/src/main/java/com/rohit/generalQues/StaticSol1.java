@@ -4,8 +4,6 @@ public class StaticSol1 {
 	/*
 	 * There are two concept of static member and function
 	 */
-	
-	
 	static String className="StaticSol1";
 	String owner ="Rohit";
 	

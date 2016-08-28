@@ -12,7 +12,6 @@ public class Recurtion2 {
 	public static void main(String ar[]){
 		
 		System.out.println(sum(4));
-		
 	}
 
 }

@@ -16,7 +16,6 @@ public class ReadTsv2 {
 			if(!productCatList.containsKey(product.getProductTitle())){
 				productCatList.put(product.getProductTitle(), product.getBrandId());
 			}
-			
 		}
 		else
 		{

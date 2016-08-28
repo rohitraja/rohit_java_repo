@@ -12,8 +12,6 @@ public class ReadTsv {
 
 	HashMap<ProductDto, String> productList = new HashMap<ProductDto, String>();
 		
-
-		
 		try {
 			BufferedReader TsvFile = new BufferedReader(new FileReader("classification_train.tsv"));
 			

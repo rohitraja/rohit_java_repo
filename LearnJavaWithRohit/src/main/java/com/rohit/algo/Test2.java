@@ -18,6 +18,7 @@ public class Test2 {
 			System.out.println(1);
 		else
 			System.err.println();
+		
 	}
 
 }

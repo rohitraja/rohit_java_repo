@@ -17,6 +17,7 @@ public class ExceptionEg1
  
     void A()
     {
+    	
         try
         {
             str +="b";

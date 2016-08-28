@@ -10,7 +10,6 @@ public class Solution2 {
 		System.out.println(getB1()|getB2());
 		System.out.println(getB1()||getB2());
 		System.out.println("**************************");
-
 	}
 
 	private static Boolean getB1() {

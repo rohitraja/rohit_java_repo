@@ -15,7 +15,6 @@ public class ProductDto {
 		return "ProductDto [productDisc=" + productDisc + ", catagory="
 				+ catagory + "]";
 	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;

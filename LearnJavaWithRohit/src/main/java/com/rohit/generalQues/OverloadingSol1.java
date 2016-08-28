@@ -14,7 +14,6 @@ public class OverloadingSol1 {
 	}
 	
 	public static void main(String arg[]){
-		
 		OverloadingSol1 obj = new OverloadingSol1();
 		Long x = (long) 10.00;
 		int y = 2;

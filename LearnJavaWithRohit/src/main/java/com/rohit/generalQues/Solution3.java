@@ -10,7 +10,6 @@ public class Solution3 {
 		String s = null;
 		System.out.println(s instanceof String);
 		System.out.println(new Solution3());
-
 	}
 
 }

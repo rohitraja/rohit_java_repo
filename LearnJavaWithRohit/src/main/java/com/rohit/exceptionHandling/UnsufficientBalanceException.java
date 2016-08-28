@@ -7,6 +7,7 @@ public class UnsufficientBalanceException extends Exception{
 	}
 	public UnsufficientBalanceException(String exceptionString){
 		super(exceptionString);
+		
 	}
 
 }

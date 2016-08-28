@@ -12,7 +12,6 @@ public class HashMapExample {
 		
 		String catagory="abcd";
 		HashMap<String, HashMap<String, String>> trainList = new HashMap<String, HashMap<String,String>>();
-		
 		if(trainList.containsKey(catagory)){
 			//now find discription inside and find the brand
 			String description="abcd";

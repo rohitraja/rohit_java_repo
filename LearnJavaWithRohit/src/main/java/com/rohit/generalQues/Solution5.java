@@ -17,4 +17,5 @@ public class Solution5 {
 		Solution5 c=null;
 		c.check();
 	}
+	
 }

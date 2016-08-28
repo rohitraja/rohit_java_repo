@@ -10,6 +10,5 @@ public class Solution6 {
 			System.out.println("False");
 		}
 				
-			
 	}
 }

@@ -14,7 +14,6 @@ public class Recurtion4 {
 	}
 	
 	public static void main(String ar[]){
-		
 		method(0);
 	}
 }
