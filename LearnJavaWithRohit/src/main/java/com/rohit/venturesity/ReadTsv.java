@@ -8,8 +8,6 @@ import java.util.HashMap;
 
 public class ReadTsv {
 	
-	
-
 	public static void main(String arg[]){
 
 	HashMap<ProductDto, String> productList = new HashMap<ProductDto, String>();
@@ -17,7 +15,7 @@ public class ReadTsv {
 
 		
 		try {
-			BufferedReader TsvFile = new BufferedReader(new FileReader("C://Users//Bahubali//Downloads//classification_train.tsv//classification_train.tsv"));
+			BufferedReader TsvFile = new BufferedReader(new FileReader("classification_train.tsv"));
 			
 			String datarow = TsvFile.readLine();
 			while(datarow!=null){
@@ -53,9 +51,9 @@ public class ReadTsv {
 		}
 		
 		Integer found=0;
-		Integer totalBlind=0;
+		Integer totalCount=0;
 		try {
-			BufferedReader TsvFile = new BufferedReader(new FileReader("C://Users//Bahubali//Downloads//classification_blind_set_corrected.tsv//classification_blind_set_corrected.tsv"));
+			BufferedReader TsvFile = new BufferedReader(new FileReader("classification_blind_set_corrected.tsv"));
 			String datarow = TsvFile.readLine();
 
 			while(datarow!=null){
@@ -70,16 +68,15 @@ public class ReadTsv {
 				}
 				ProductDto product = new ProductDto(cataoryId,prodDec);		
 				if(productList.get(product)!=null){
-					System.out.println("Brand: "+productList.get(product));
+					System.out.println(productList.get(product));
 					found++;
-					
 				}
 				else
 				{
 					System.out.println("Not found");
 				}
 				datarow = TsvFile.readLine();
-				totalBlind++;
+				totalCount++;
 				
 			}
 			TsvFile.close();
@@ -91,10 +88,6 @@ public class ReadTsv {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("Found: "+found);
-		System.out.println("Togal : "+totalBlind);
-		System.out.println("Data found : "+(found*100)/totalBlind+"%");
-		
 		
 	}
 
